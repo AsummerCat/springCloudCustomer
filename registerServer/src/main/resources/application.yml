@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: test-server
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka
+server:
+  port: 8090
+
+management:
+  security:
+    enabled: false

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: frign-Customer
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8089
