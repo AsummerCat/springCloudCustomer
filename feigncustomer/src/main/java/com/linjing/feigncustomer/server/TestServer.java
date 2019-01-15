@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2019/1/10 14:47
  */
 @Component
-
 //服务名称 注解只能放在类上
 @FeignClient("test-server")
 public interface TestServer {
